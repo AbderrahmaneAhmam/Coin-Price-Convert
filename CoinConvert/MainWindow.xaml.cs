@@ -70,10 +70,6 @@ namespace CoinConvert
                 lab_result.Content = magic["price"];
                 lab_result.Visibility = Visibility.Visible;
             }
-            else
-            {
-                MessageBox.Show("Champ incorrect ou internet non disponible", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
         }       
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
